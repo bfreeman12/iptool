@@ -17,6 +17,7 @@
 }
 
 input {
+  position: relative;
   all: unset;
   font: 30px;
   color: white;
@@ -29,9 +30,10 @@ input {
   opacity: 0.7;
 }
 form button {
-  all: unset;
+  position: relative;
+  all: inherit;
   cursor: pointer;
-  width: 6.8vh;
+  width: 50px;
   height: 100%;
   border-radius: 5px;
 }
