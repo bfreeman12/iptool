@@ -1,53 +1,51 @@
-
-  .searchbar {
-    position: absolute;
-    top: 50%;
-    left: 37%;
-    margin: auto; 
+.searchbar {
+  position: absolute;
+  top: 50%;
+  left: 37%;
+  margin: auto;
 }
 
 .searchbar form {
-background-color: rgb(66, 66, 66);
-color: white;
-width: 290px;
-height: 40px;
-border-radius: 5px;
-display:flex;
-flex-direction: row;
-align-items: center;
+  background-color: rgb(66, 66, 66);
+  color: white;
+  width: 290px;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 input {
-    all:unset;
-    font: 30px ;
-    color: white;
-    height: 100%;
-    width: 100%;
-    padding: 6px 10px;
-
+  all: unset;
+  font: 30px;
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
 }
 ::placeholder {
-    color: #fff;
-    opacity: 0.7;
+  color: #fff;
+  opacity: 0.7;
 }
 form button {
   all: unset;
   cursor: pointer;
-  width: 50px;
+  width: 6.8vh;
   height: 100%;
   border-radius: 5px;
 }
 
 svg {
-    color: #fff;
-    fill: white;
-    padding: 10px;
-    border: solid rgb(66,66,66);
-    border-radius: 5px;
-    border-width: 1px;
+  color: #fff;
+  fill: white;
+  padding: 10px;
+  border: solid rgb(66, 66, 66);
+  border-radius: 5px;
+  border-width: 1px;
 }
 
-  form svg:hover {
-     background-color: grey;
-     outline:auto
-  }
+form svg:hover {
+  background-color: grey;
+  outline: auto;
+}
