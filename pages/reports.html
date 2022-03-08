@@ -8,6 +8,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="/css/global.css">
+        <link rel="stylesheet" href="/css/reports.css">
     </head>
     <body>
 
@@ -18,11 +19,50 @@
           </h1>
           
 
-          <nav class="home">
+          <nav class="home" >
      
             <a class="home" href="/index.html"><button>Home</button></a>
          
           </nav>
       </header>
+
+<div class="paramcontainer">
+
+
+
+  <div class="paramsearch" id="params">
+    
+    <form autocomplete="off">
+      <input type="search" id="iprange" placeholder="Search IP address or IP range" required pattern="((^|\.)((25[0-5])|(2[0-4]\d)|(1\d\d)|([1-9]?\d))){4}$">
+     </form>
+     
+    </div>
+
+    <div class="paramsearch" id="companies">
+      <form autocomplete="off">
+        <input type="search" id="Company" placeholder="Search by Company">
+       </form>
+    </div>
+    
+    
+    <div class="paramsearch" id="countries">
+      <form autocomplete="off">
+        <input type="search" id="country" placeholder="Search by Country">
+       </form>
+    </div>
+    
+    
+    <div class="paramsearch" id="malware">
+      <select autocomplete="off" >
+      <option value="" disabled selected>Linked to malware?</option>
+      <option>Yes</option>
+      <option>No</option>
+      </select>
+    </div>
+    
+<button class="paramquery">Go!</button>
+
+
+</div>
     </body>
 </html>
