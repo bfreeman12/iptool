@@ -45,3 +45,6 @@ svg {
 svg:hover {
   background-color: grey;
 }
+svg:active {
+  box-shadow: inset 0px 0px 5px rgb(66, 66, 66);
+}

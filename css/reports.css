@@ -35,10 +35,25 @@
 }
 
 select:focus {
-  outline: none !important;
+  outline: none;
 }
 
 ::placeholder {
   color: white;
   opacity: 0.5;
+}
+
+.paramquery {
+  height: 40px;
+  background-color: rgb(66, 66, 66);
+  border: 0px;
+  border-radius: 5px;
+}
+
+.paramquery:hover {
+  background-color: grey;
+}
+
+.paramquery:active {
+  box-shadow: inset 0px 0px 5px rgb(66, 66, 66);
 }
