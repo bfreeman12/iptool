@@ -1,0 +1,75 @@
+.paramcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 20vh;
+  width: 100vh;
+  gap: 30px;
+  top: 30vh;
+  position: relative;
+}
+.paramsearch form {
+  background-color: rgb(66, 66, 66);
+  height: 40px;
+  width: 290px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.paramsearch input {
+  position: relative;
+  all: unset;
+  font: 30px;
+  color: white;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+.paramsearch select {
+  height: 40px;
+  width: 150px;
+  border-radius: 3%;
+  background-color: rgb(66, 66, 66);
+  border-color: rgb(66, 66, 66);
+}
+
+select:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: white;
+  opacity: 0.5;
+}
+
+.paramquery {
+  height: 40px;
+  background-color: rgb(66, 66, 66);
+  border: 0px;
+  border-radius: 5px;
+}
+
+.paramquery:hover {
+  background-color: grey;
+}
+
+.paramquery:active {
+  box-shadow: inset 0px 0px 5px rgb(66, 66, 66);
+}
+.infocontainer {
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+}
+.infobox {
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+  border-color: white;
+  border-width: 10px;
+}
