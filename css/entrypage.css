@@ -75,3 +75,8 @@ select:focus {
   width: 100%;
   box-sizing: border-box;
 }
+footer {
+  position: relative;
+  top: 45vh;
+  left: 100%ss;
+}
