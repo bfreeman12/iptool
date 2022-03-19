@@ -8,11 +8,9 @@ html {
   align-items: center;
   justify-content: center;
   flex-direction: row;
-  height: 2vh;
-  width: 100vw;
+  height: calc(40vh - 100px);
+  width: 90vw;
   gap: 30px;
-  top: 30vh;
-  position: relative;
 }
 .paramsearch form {
   background-color: rgb(66, 66, 66);
@@ -49,22 +47,26 @@ select:focus {
   color: white;
   opacity: 0.5;
 }
+
+.infopositioner {
+  display: flex;
+  justify-content: end;
+  background-color: white;
+  height: calc(80vh - 400px);
+  width: 81vw;
+}
 .infocontainer {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  top: 40vh;
-  left: 21.6vw;
+  background-color: white;
 }
 .infocontainer form {
   background-color: rgb(66, 66, 66);
   height: 200px;
-  width: 31%;
+  width: 30vw;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
-  align-items: center;
+  align-items: end;
 }
 .infocontainer textarea {
   all: unset;
