@@ -1,80 +1,82 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/css/global.css">
-        <link rel="stylesheet" href="/css/searchresult.css">
-    </head>
-    <body>
 
-        <header>
-          
-          <h1>
-              MDT IPtool
-          </h1>
-          
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/css/global.css">
+  <link rel="stylesheet" href="/css/searchresult.css">
+</head>
 
-          <nav class="home" >
-     
-            <a class="home" href="/index.html"><button>Home</button></a>
-         
-          </nav>
-      </header>
-<div class="everythingcontainer">
-<div class="paramcontainer">
+<body>
+
+  <header>
+    <h1>
+      MDT IPtool
+    </h1>
+    <nav>
+      <a href="/index.html"><button>Home</button></a>
+    </nav>
+    <nav>
+      <a href="/pages/reports.html"><button>Reports</button></a>
+    </nav>
+  </header>
+
+  <div class="everythingcontainer">
+    <div class="paramcontainer">
 
 
 
-  <div class="paramsearch" id="params">
-    
-    <form autocomplete="off">
-      <input type="text" id="iprange">
-     </form>
-     
+      <div class="paramsearch" id="params">
+
+        <form autocomplete="off">
+          <input type="text" id="iprange">
+        </form>
+
+      </div>
+
+      <div class="paramsearch" id="companies">
+        <form autocomplete="off">
+          <input type="text" id="Company">
+        </form>
+      </div>
+
+
+      <div class="paramsearch" id="countries">
+        <form autocomplete="off">
+          <input type="text" id="country">
+        </form>
+      </div>
+
+
+      <div class="paramsearch" id="Malicious">
+        <select autocomplete="off">
+          <option value="" disabled selected>Linked to malware?</option>
+          <option>Yes</option>
+          <option>No</option>
+          <option>Unknown</option>
+        </select>
+      </div>
     </div>
 
-    <div class="paramsearch" id="companies">
-      <form autocomplete="off">
-        <input type="text" id="Company" >
-       </form>
+    <div class="infopositioner">
+      <div class="infocontainer">
+        <form class="infobox">
+          <textarea placeholder="comments go here" id="textarea1"></textarea>
+        </form>
+      </div>
     </div>
-    
-    
-    <div class="paramsearch" id="countries">
-      <form autocomplete="off">
-        <input type="text" id="country">
-       </form>
+    <div class="newentry">
+      <button class="newentrybutton">Add new entry</button>
     </div>
-    
-    
-    <div class="paramsearch" id="Malicious">
-      <select autocomplete="off">
-      <option value="" disabled selected>Linked to malware?</option>
-      <option>Yes</option>
-      <option>No</option>
-      <option>Unknown</option> 
-      </select>
-    </div>
-</div>
 
-<div class="infopositioner">
-<div class="infocontainer">
-  <form class="infobox">
-    <textarea placeholder="comments go here" id="textarea1"></textarea>
-</form>
   </div>
   </div>
-<div class="newentry">
-  <button class="newentrybutton">Add new entry</button>
-</div>
-
-</div>
-</div>
-</div>
+  </div>
 </body>
+
 </html>
