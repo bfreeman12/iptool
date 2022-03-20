@@ -3,13 +3,17 @@ html {
   max-width: 100vw;
   overflow-x: hidden;
 }
+
+.everythingcontainer {
+  width: 80%;
+}
+
 .paramcontainer {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: end;
   flex-direction: row;
   height: calc(40vh - 100px);
-  width: 90vw;
   gap: 30px;
 }
 .paramsearch form {
@@ -51,18 +55,17 @@ select:focus {
 .infopositioner {
   display: flex;
   justify-content: end;
-  background-color: white;
-  height: calc(80vh - 400px);
-  width: 81vw;
+  height: 50%;
+  width: 100%;
+  margin-top: 2rem;
 }
 .infocontainer {
   display: flex;
-  background-color: white;
 }
 .infocontainer form {
   background-color: rgb(66, 66, 66);
   height: 200px;
-  width: 30vw;
+  width: 470px;
   border-radius: 5px;
   display: flex;
   flex-direction: row;
@@ -76,4 +79,28 @@ select:focus {
   height: 100%;
   width: 100%;
   box-sizing: border-box;
+}
+
+.newentry {
+  height: 5vh;
+  display: flex;
+  justify-content: end;
+}
+
+.newentrybutton {
+  all: unset;
+  cursor: pointer;
+  width: 120px;
+  height: 100%;
+  background-color: rgb(66, 66, 66);
+  text-align: center;
+  margin-top: 1em;
+  border-radius: 5px;
+}
+
+.newentrybutton:hover {
+  background-color: grey;
+}
+.newentrybutton:active {
+  box-shadow: inset 0px 0px 5px rgb(66, 66, 66);
 }
